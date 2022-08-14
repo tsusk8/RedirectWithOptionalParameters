@@ -9,7 +9,7 @@
         "default_popup": "popup.html"
     },
     "content_scripts": [{
-        "matches": ["*://*/*"],
+        "matches": ["*://*/item/*"],
         "js": [
             "main.js"
         ]
