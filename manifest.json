@@ -1,13 +1,8 @@
 {
-    "name": "Sample",
+    "name": "Redirect specific paths",
     "version": "1.0.0",
     "manifest_version": 3,
-    "permissions": ["activeTab", "scripting", "storage"],
-    "options_page": "options.html",
-    "description": "Sample Chrome Extension",
-    "action": {
-        "default_popup": "popup.html"
-    },
+    "description": "Give parameters when a specific url is accessed",
     "content_scripts": [{
         "matches": ["*://*/item/*"],
         "js": [
